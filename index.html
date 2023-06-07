@@ -18,12 +18,13 @@
       }
       #gallery li img {
         width: 100%;
+        height: 300px;
       }
     </style>
   </head>
   <body>
     <h1>안녕하세요</h1>
-    <script src="/instafeed.min.js"></script>
+    <script src="./instafeed.min.js"></script>
     <ul id="gallery"></ul>
 
     <script>
@@ -32,7 +33,7 @@
         template:
           '<li><a href="{{link}}"><img title="{{caption}}" src="{{image}}" /></a></li>',
         accessToken:
-          "IGQVJXREd3a3BvWVM0dHZAuYlZAGeXNZASl85SWU4aG9Dem83bEJJdGt5dXd2TEtubEMxVi1NQXphNW1Ibkp0akJpT0FvVGh6bjdKS0ZAGN3hHWUt0YmJqdWlST2dFMWF0aHB0VE41VW10a1dIMjBvU1JuNgZDZD",
+          "IGQVJXNkdaWlgxYVFYSUlzQ1hGa2ttelA4THUyR3c0Y3RGQkRrZAWFvSU5UYlJXUENVaFBCWXFNNEh3eUNNWERUZAnc3VXNTbEJTV1VoaU82UVMxQXY0amFaeDhYU3lsOU1JWkE0a3VWXzR4UW5WWjVqQQZDZD",
       });
       feed.run();
     </script>

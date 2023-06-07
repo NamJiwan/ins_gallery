@@ -1,0 +1,6 @@
+https://api.instagram.com/oauth/authorize
+  ?client_id=791015892401898
+  &redirect_uri=https://harmonious-marigold-256c5c.netlify.app/
+  &scope=user_profile,user_media&response_type=code
+
+IGQVJXREd3a3BvWVM0dHZAuYlZAGeXNZASl85SWU4aG9Dem83bEJJdGt5dXd2TEtubEMxVi1NQXphNW1Ibkp0akJpT0FvVGh6bjdKS0ZAGN3hHWUt0YmJqdWlST2dFMWF0aHB0VE41VW10a1dIMjBvU1JuNgZDZD
